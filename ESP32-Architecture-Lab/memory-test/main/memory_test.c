@@ -2,9 +2,10 @@
 #include <string.h>
 #include <esp_system.h>
 #include <esp_heap_caps.h>
+#include "esp_attr.h"
 
 // Global variables in different memory sections
-static char sram_buffer[1024];
+DRAM_ATTR static char sram_buffer[1024];
 static const char flash_string[] __attribute__((section(".rodata"))) = "Hello from Flash Memory!";
 static char *heap_ptr;
 
