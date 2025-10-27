@@ -1,0 +1,30 @@
+=== ESP32 Memory Layout Analysis ===
+Stack variable address: 0x3ffb4580
+SRAM buffer address:    0x3ffb2ce0
+Flash string address:   0x3f407dd4
+Heap allocation:        0x3ffb529c
+
+=== Heap Information ===
+Free heap size:         303024 bytes
+Min free heap size:     303024 bytes
+Largest free block:     172032 bytes
+=== Heap Information ===
+Free heap size:         303024 bytes
+Min free heap size:     303024 bytes
+=== Heap Information ===
+Free heap size:         303024 bytes
+=== Heap Information ===
+=== Heap Information ===
+=== Heap Information ===
+=== Heap Information ===
+Free heap size:         303024 bytes
+Min free heap size:     303024 bytes
+Largest free block:     172032 bytes
+
+=== Memory Usage by Type ===
+Internal SRAM:          388468 bytes
+SPI RAM (if available): 0 bytes
+DMA capable memory:     303024 bytes
+
+Memory analysis complete!
+I (13479) main_task: Returned from app_main()

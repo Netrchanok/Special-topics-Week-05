@@ -1,0 +1,21 @@
+# ESP-IDF build output
+build/
+sdkconfig
+
+# Local configuration
+sdkconfig.local
+sdkconfig.old
+
+# C/C++ editor temporary files
+*.o
+*.i
+*.d
+*.dep
+*.bak
+*.s
+
+# VS Code
+.vscode/
+
+# Other
+.DS_Store
